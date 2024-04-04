@@ -1,0 +1,15 @@
+const questions = [
+    {
+        "question": "What is the capital of France?",
+        "options": ["Paris", "Berlin", "London", "Rome"],
+        "correctAnswer": "Paris"
+    },
+    {
+        "question": "What is the largest planet in our solar system?",
+        "options": ["Jupiter", "Mars", "Saturn", "Earth"],
+        "correctAnswer": "Jupiter"
+    }
+   
+]
+
+export default questions
