@@ -25,10 +25,10 @@ const Quiz = () => {
         <div>
             {showScore ? (
                 <div>
-                    <h2>Your Score: {score}</h2>
+                    <h2 className='text-bold'>Your Score: {score}</h2>
                 </div>
             ) : (
-                <div>
+                <div >
                     <Question
                         question={questionsData[currentQuestion].question}
                         options={questionsData[currentQuestion].options}
